@@ -13,6 +13,7 @@ const images = [
   },
 ];
 const list = document.querySelector(".gallery");
+
 images.forEach(({ url, alt }) => {
   const listItem = document.createElement("li");
   list.append(listItem);
