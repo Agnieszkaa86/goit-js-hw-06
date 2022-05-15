@@ -13,6 +13,7 @@ ingredients.forEach((item) => {
   const listItem = document.createElement("li")
   listItem.textContent = item
   list.append(listItem)
+
 })
 
 
