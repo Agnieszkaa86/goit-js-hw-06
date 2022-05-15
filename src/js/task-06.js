@@ -5,6 +5,7 @@ let value;
 input.addEventListener("input", (event) => {
   value = event.currentTarget.value;
 });
+
 input.addEventListener("blur", () => {
   input.classList.remove("valid");
   input.classList.remove("invalid");
